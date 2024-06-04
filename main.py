@@ -152,5 +152,5 @@ def get_data_from_php():
             return{"error": "Failed to retrieve data, Status code:" + str(response.status_code)}
     except requests.exceptions.RequestException as e:
         return{"error": "request failed: " + str(e)}
-if __name__ == '__main__':
-    app.run(port=5000)
+#if __name__ == '__main__':
+#    app.run(port=5000)
